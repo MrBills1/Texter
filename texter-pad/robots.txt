@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://new-counter-eight.vercel.app/sitemap.xml
