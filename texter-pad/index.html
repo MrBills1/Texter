@@ -3,8 +3,9 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Texter — Text Pad & Tools</title>
-<meta name="description" content="Texter Pad: write text once, apply any changes via checkboxes—spaces, lines, case, reverse, grammar hints, word frequency." />
+<title>Texter — Text Pad & Tools | Free Online Text Processing</title>
+<meta name="description" content="Free online text pad with real-time text transformation. Remove spaces, change case, reverse text, analyze grammar, and count word frequency. No registration required." />
+<meta name="keywords" content="text pad, text tools, text processing, remove spaces, change case, word counter, grammar checker, free online tools" />
 <link rel="canonical" href="https://new-counter-eight.vercel.app/" />
 <meta name="theme-color" content="#111111" />
 <link rel="icon" href="/favicon.svg" />
@@ -24,6 +25,23 @@
   gtag('config', 'G-D7L99LYLEL');
 </script>
 
+<!-- Structured Data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "Texter Text Pad",
+  "description": "Free online text processing tools with real-time transformations",
+  "applicationCategory": "UtilityApplication",
+  "operatingSystem": "Any",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  }
+}
+</script>
+
 <script defer src="/assets/js/app.js"></script>
 </head>
 
@@ -40,26 +58,41 @@
   <button id="themeToggle" class="icon-btn" title="Toggle theme">🌓</button>
 </header>
 
+<!-- Ad Space 1: Top Banner -->
+<div class="ad-container top-ad">
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1502641642598133"
+     crossorigin="anonymous"></script>
+  <ins class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-1502641642598133"
+      data-ad-slot="1234567890"
+      data-ad-format="auto"
+      data-full-width-responsive="true"></ins>
+  <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+</div>
 
 <main class="container main-grid">
-  <!-- Ad Space 1: Top of Main Content -->
-  <div class="ad-container" style="margin: 20px 0; text-align: center;">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1502641642598133"
-     crossorigin="anonymous"></script>
-    <ins class="adsbygoogle"
-        style="display:block"
-        data-ad-client="ca-pub-1502641642598133"
-        data-ad-slot="1234567890"
-        data-ad-format="auto"
-        data-full-width-responsive="true"></ins>
-    <script>
-        (adsbygoogle = window.adsbygoogle || []).push({});
-    </script>
-  </div>
-
   <section class="section">
     <h1>Texter Pad <span class="badge">All-in-one</span></h1>
-    <p class="small">Write once, then check the boxes for the changes you want. Everything runs locally in your browser.</p>
+    <p class="small">Write once, then check the boxes for the changes you want. Everything runs locally in your browser - your data never leaves your computer.</p>
+    
+    <!-- Ad Space 2: In-content -->
+    <div class="ad-container in-content-ad">
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1502641642598133"
+       crossorigin="anonymous"></script>
+      <ins class="adsbygoogle"
+          style="display:block"
+          data-ad-client="ca-pub-1502641642598133"
+          data-ad-slot="2345678901"
+          data-ad-format="auto"
+          data-full-width-responsive="true"></ins>
+      <script>
+          (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
+    </div>
+    
     <div class="controls" style="margin:10px 0 14px">
       <label class="control"><input id="opt-trimlines" type="checkbox"> Trim trailing spaces (per line)</label>
       <label class="control"><input id="opt-rmspaces" type="checkbox"> Remove extra spaces</label>
@@ -74,21 +107,6 @@
     </div>
     <textarea id="pad" placeholder="Type or paste your text here…"></textarea>
   </section>
-
-  <!-- Ad Space 2: Middle of Content -->
-  <div class="ad-container" style="margin: 20px 0; text-align: center;">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1502641642598133"
-     crossorigin="anonymous"></script>
-    <ins class="adsbygoogle"
-        style="display:block"
-        data-ad-client="ca-pub-1502641642598133"
-        data-ad-slot="2345678901"
-        data-ad-format="auto"
-        data-full-width-responsive="true"></ins>
-    <script>
-        (adsbygoogle = window.adsbygoogle || []).push({});
-    </script>
-  </div>
 
   <section class="section">
     <div class="grid-2">
@@ -105,31 +123,38 @@
         <div id="grammar" class="small"></div>
         <h3 style="margin:12px 0 6px">Word Frequency</h3>
         <div id="frequency"></div>
+        
+        <!-- Ad Space 3: Sidebar -->
+        <div class="ad-container sidebar-ad">
+          <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1502641642598133"
+           crossorigin="anonymous"></script>
+          <ins class="adsbygoogle"
+              style="display:block"
+              data-ad-client="ca-pub-1502641642598133"
+              data-ad-slot="3456789012"
+              data-ad-format="auto"
+              data-full-width-responsive="true"></ins>
+          <script>
+              (adsbygoogle = window.adsbygoogle || []).push({});
+          </script>
+        </div>
       </div>
     </div>
   </section>
-
-  <!-- Ad Space 3: Bottom of Content -->
-  <div class="ad-container" style="margin: 20px 0; text-align: center;">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1502641642598133"
-     crossorigin="anonymous"></script>
-    <ins class="adsbygoogle"
-        style="display:block"
-        data-ad-client="ca-pub-1502641642598133"
-        data-ad-slot="3456789012"
-        data-ad-format="auto"
-        data-full-width-responsive="true"></ins>
-    <script>
-        (adsbygoogle = window.adsbygoogle || []).push({});
-    </script>
-  </div>
 </main>
 
 <footer class="container footer">
-  <div>&copy; 2025 Texter. <a href="/privacy.html">Privacy</a> · <a href="/terms.html">Terms</a> · <a href="/earn.html">Earn Money</a></div>
+  <div class="footer-links">
+    <a href="/">Home</a>
+    <a href="/privacy.html">Privacy</a>
+    <a href="/terms.html">Terms</a>
+    <a href="/tools.html">More Tools</a>
+    <a href="/contact.html">Contact</a>
+  </div>
+  <div>&copy; 2025 Texter. Free online text tools for writers, students, and developers.</div>
   
   <!-- Ad Space 4: Footer -->
-  <div class="ad-container" style="margin: 20px 0; text-align: center;">
+  <div class="ad-container footer-ad">
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1502641642598133"
      crossorigin="anonymous"></script>
     <ins class="adsbygoogle"
