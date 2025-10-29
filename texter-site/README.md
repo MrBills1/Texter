@@ -1,1 +1,0 @@
-# Texter\nDomain: https://new-counter-eight.vercel.app\nIncludes Counter, Grammar Checker, Word Frequency Analyzer.\nReplace GA ID `G-XXXXXXX` if needed.\n
